@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "mauh_mod",
+    "name": "Mauh Mod",
+    "authors": [ "WWelna" ],
+    "maintainers": [ "WWelna" ],
+    "description": "",
+    "category": "rebalance",
+    "dependencies": [ "bn" ]
+  }
+]

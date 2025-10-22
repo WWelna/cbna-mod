@@ -1,0 +1,988 @@
+[
+    {
+        "type": "profession",
+        "id": "anime_protagonist",
+        "name": "Anime Protagonist",
+        "description": "",
+        "points": 9001,
+        "vehicle": "anime_tatra_truck",
+        "skills": [
+            {
+                "level": 3,
+                "name": "gun"
+            },
+            {
+                "level": 3,
+                "name": "smg"
+            },
+            {
+                "level": 3,
+                "name": "rifle"
+            },
+            {
+                "level": 3,
+                "name": "shotgun"
+            },
+            {
+                "level": 3,
+                "name": "launcher"
+            },
+            {
+                "level": 4,
+                "name": "pistol"
+            },
+            {
+                "level": 3,
+                "name": "archery"
+            },
+            {
+                "level": 4,
+                "name": "throw"
+            },
+            {
+                "level": 4,
+                "name": "cutting"
+            },
+            {
+                "level": 3,
+                "name": "bashing"
+            },
+            {
+                "level": 3,
+                "name": "melee"
+            },
+            {
+                "level": 3,
+                "name": "stabbing"
+            },
+            {
+                "level": 6,
+                "name": "dodge"
+            },
+            {
+                "level": 3,
+                "name": "firstaid"
+            },
+            {
+                "level": 3,
+                "name": "swimming"
+            },
+            {
+                "level": 4,
+                "name": "survival"
+            },
+            {
+                "level": 4,
+                "name": "fabrication"
+            },
+            {
+                "level": 3,
+                "name": "tailor"
+            },
+            {
+                "level": 3,
+                "name": "traps"
+            },
+            {
+                "level": 5,
+                "name": "cooking"
+            },
+            {
+                "level": 3,
+                "name": "electronics"
+            },
+            {
+                "level": 4,
+                "name": "computer"
+            },
+            {
+                "level": 5,
+                "name": "mechanics"
+            },
+            {
+                "level": 4,
+                "name": "speech"
+            },
+            {
+                "level": 4,
+                "name": "barter"
+            },
+            {
+                "level": 4,
+                "name": "driving"
+            }
+        ],
+        "items": {
+            "both": {
+                "items": [
+                    "pants_army",
+                    "tshirt",
+                    "jacket_flannel",
+                    "keffiyeh",
+                    "glasses_safety",
+                    "socks",
+                    "carbon_boots",
+                    "gloves_tactical",
+                    "ref_lighter",
+                    "caffeine",
+                    "tool_belt",
+                    "backpack_tactical_large",
+                    "e_tool",
+                    "diving_watch",
+                    "1st_aid",
+                    "legpouch_large",
+                    "legpouch_large",
+                    "carbon_armguard",
+                    "carbon_legguard",
+                    "carbon_chestguard",
+                    "carbon_shield"
+                ],
+                "entries": [
+                    {
+                        "item": "medium_plus_battery_cell",
+                        "ammo-item": "battery",
+                        "charges": 750,
+                        "container-item": "mil_mess_kit"
+                    },
+                    {
+                        "item": "medium_plus_battery_cell",
+                        "ammo-item": "battery",
+                        "charges": 750,
+                        "container-item": "large_repairkit"
+                    },
+                    {
+                        "item": "medium_plus_battery_cell",
+                        "ammo-item": "battery",
+                        "charges": 750,
+                        "container-item": "3d_printer_advanced"
+                    },
+                    {
+                        "item": "medium_plus_battery_cell",
+                        "ammo-item": "battery",
+                        "charges": 750,
+                        "container-item": "welder"
+                    },
+                    {
+                        "item": "light_plus_battery_cell",
+                        "ammo-item": "battery",
+                        "charges": 150,
+                        "container-item": "soldering_iron"
+                    },
+                    {
+                        "item": "light_plus_battery_cell",
+                        "ammo-item": "battery",
+                        "charges": 150,
+                        "container-item": "voltmeter"
+                    },
+                    {
+                        "item": "goggles_welding",
+                        "custom-flags": [
+                            "no_auto_equip"
+                        ]
+                    },
+                    {
+                        "item": "sword_carbon",
+                        "container-item": "scabbard"
+                    },
+                    {
+                        "item": "knife_hunting",
+                        "container-item": "sheath"
+                    },
+                    {
+                        "item": "mp5mag",
+                        "ammo-item": "9mmfmj",
+                        "charges": 30
+                    },
+                    {
+                        "item": "mp5mag",
+                        "ammo-item": "9mmfmj",
+                        "charges": 30
+                    },
+                    {
+                        "item": "mp5mag",
+                        "ammo-item": "9mmfmj",
+                        "charges": 30
+                    },
+                    {
+                        "item": "mp5mag",
+                        "ammo-item": "9mmfmj",
+                        "charges": 30
+                    },
+                    {
+                        "item": "mp5bigmag",
+                        "ammo-item": "9mmfmj",
+                        "charges": 50
+                    },
+                    {
+                        "item": "hk_mp5",
+                        "contents-item": [
+                            "shoulder_strap",
+                            "suppressor",
+                            "holo_sight",
+                            "adjustable_stock"
+                        ]
+                    }
+                ]
+            },
+            "male": [
+                "briefs"
+            ],
+            "female": [
+                "sports_bra",
+                "boxer_shorts"
+            ]
+        }
+    },
+    {
+        "id": "anime_tatra_truck",
+        "type": "vehicle",
+        "name": "Heavy Duty Cargo Truck",
+        "parts": [
+            {
+                "x": -1,
+                "y": 1,
+                "part": "hdframe_vertical_2"
+            },
+            {
+                "x": -1,
+                "y": 0,
+                "part": "hdframe_horizontal"
+            },
+            {
+                "x": -1,
+                "y": 2,
+                "part": "hdframe_horizontal"
+            },
+            {
+                "x": -1,
+                "y": -1,
+                "parts": [
+                    "hdframe_vertical",
+                    "muffler"
+                ]
+            },
+            {
+                "x": -1,
+                "y": 3,
+                "parts": [
+                    "hdframe_vertical",
+                    "muffler"
+                ]
+            },
+            {
+                "x": 0,
+                "y": 1,
+                "parts": [
+                    "hdframe_vertical_2",
+                    {
+                        "part": "tank",
+                        "fuel": "diesel"
+                    },
+                    "hdroof"
+                ]
+            },
+            {
+                "x": 0,
+                "y": 0,
+                "parts": [
+                    "hdframe_vertical_2",
+                    "seat",
+                    {
+                        "part": "tank",
+                        "fuel": "diesel"
+                    },
+                    "seatbelt",
+                    "hdroof",
+                    "controls",
+                    "dashboard",
+                    "vehicle_clock",
+                    "horn_big"
+                ]
+            },
+            {
+                "x": 0,
+                "y": 2,
+                "parts": [
+                    "hdframe_vertical_2",
+                    {
+                        "part": "tank",
+                        "fuel": "diesel"
+                    },
+                    "hdroof"
+                ]
+            },
+            {
+                "x": 0,
+                "y": -1,
+                "part": "hdframe_vertical"
+            },
+            {
+                "x": 0,
+                "y": 3,
+                "part": "hdframe_vertical"
+            },
+            {
+                "x": -2,
+                "y": 1,
+                "parts": [
+                    "hdframe_horizontal",
+                    "wooden_aisle_vertical"
+                ]
+            },
+            {
+                "x": -2,
+                "y": 0,
+                "part": "hdframe_vertical_2"
+            },
+            {
+                "x": -2,
+                "y": 2,
+                "parts": [
+                    "hdframe_vertical_2",
+                    "cargo_space"
+                ]
+            },
+            {
+                "x": -2,
+                "y": -1,
+                "part": "hdframe_vertical"
+            },
+            {
+                "x": -2,
+                "y": 3,
+                "part": "hdframe_vertical"
+            },
+            {
+                "x": 1,
+                "y": 1,
+                "part": "hdframe_horizontal"
+            },
+            {
+                "x": 1,
+                "y": 0,
+                "part": "hdframe_horizontal"
+            },
+            {
+                "x": 1,
+                "y": 2,
+                "part": "hdframe_horizontal"
+            },
+            {
+                "x": 1,
+                "y": -1,
+                "part": "hdframe_vertical"
+            },
+            {
+                "x": 1,
+                "y": 3,
+                "part": "hdframe_vertical"
+            },
+            {
+                "x": -3,
+                "y": 1,
+                "parts": [
+                    "hdframe_horizontal",
+                    "wooden_aisle_vertical"
+                ]
+            },
+            {
+                "x": -3,
+                "y": 0,
+                "part": "hdframe_horizontal"
+            },
+            {
+                "x": -3,
+                "y": 2,
+                "parts": [
+                    "hdframe_horizontal",
+                    "cargo_space"
+                ]
+            },
+            {
+                "x": -3,
+                "y": -1,
+                "parts": [
+                    "hdframe_horizontal",
+                    "wheel_mount_medium",
+                    "wheel_wide"
+                ]
+            },
+            {
+                "x": -3,
+                "y": 3,
+                "parts": [
+                    "hdframe_horizontal",
+                    "wheel_mount_medium",
+                    "wheel_wide"
+                ]
+            },
+            {
+                "x": 2,
+                "y": 1,
+                "parts": [
+                    "hdframe_horizontal",
+                    "hdhalfboard_horizontal",
+                    "diesel_engine_v12"
+                ]
+            },
+            {
+                "x": 2,
+                "y": 0,
+                "parts": [
+                    "hdframe_horizontal",
+                    "hdhalfboard_horizontal",
+                    "headlight_reinforced"
+                ]
+            },
+            {
+                "x": 2,
+                "y": 2,
+                "parts": [
+                    "hdframe_horizontal",
+                    "hdhalfboard_horizontal",
+                    "headlight_reinforced"
+                ]
+            },
+            {
+                "x": 2,
+                "y": -1,
+                "parts": [
+                    "hdframe_horizontal",
+                    "hdhalfboard_nw",
+                    "wheel_mount_medium_steerable",
+                    "wheel_wide"
+                ]
+            },
+            {
+                "x": 2,
+                "y": 3,
+                "parts": [
+                    "hdframe_horizontal",
+                    "hdhalfboard_ne",
+                    "wheel_mount_medium_steerable",
+                    "wheel_wide"
+                ]
+            },
+            {
+                "x": -4,
+                "y": 1,
+                "parts": [
+                    "hdframe_horizontal",
+                    "wooden_aisle_vertical"
+                ]
+            },
+            {
+                "x": -4,
+                "y": 0,
+                "part": "hdframe_horizontal"
+            },
+            {
+                "x": -4,
+                "y": 2,
+                "parts": [
+                    "hdframe_horizontal",
+                    "cargo_space"
+                ]
+            },
+            {
+                "x": -4,
+                "y": -1,
+                "parts": [
+                    "hdframe_horizontal",
+                    "wheel_mount_medium",
+                    "wheel_wide"
+                ]
+            },
+            {
+                "x": -4,
+                "y": 3,
+                "parts": [
+                    "hdframe_horizontal",
+                    "wheel_mount_medium",
+                    "wheel_wide"
+                ]
+            },
+            {
+                "x": -5,
+                "y": 1,
+                "part": "hdframe_horizontal"
+            },
+            {
+                "x": -5,
+                "y": 0,
+                "part": "hdframe_horizontal"
+            },
+            {
+                "x": -5,
+                "y": 2,
+                "part": "hdframe_horizontal"
+            },
+            {
+                "x": -5,
+                "y": -1,
+                "part": "hdframe_vertical"
+            },
+            {
+                "x": -5,
+                "y": 3,
+                "part": "hdframe_vertical"
+            },
+            {
+                "x": 0,
+                "y": 2,
+                "parts": [
+                    "cargo_space",
+                    "recharge_station"
+                ]
+            },
+            {
+                "x": 2,
+                "y": 1,
+                "part": "generator_7500w"
+            },
+            {
+                "x": -1,
+                "y": 0,
+                "part": "hdroof"
+            },
+            {
+                "x": -1,
+                "y": 1,
+                "part": "hdroof"
+            },
+            {
+                "x": -1,
+                "y": 2,
+                "part": "hdroof"
+            },
+            {
+                "x": 3,
+                "y": 0,
+                "part": "hdframe_horizontal"
+            },
+            {
+                "x": 3,
+                "y": 2,
+                "part": "hdframe_horizontal"
+            },
+            {
+                "x": 3,
+                "y": 3,
+                "part": "hdframe_ne"
+            },
+            {
+                "x": 3,
+                "y": -1,
+                "part": "hdframe_nw"
+            },
+            {
+                "x": 1,
+                "y": 2,
+                "part": "storage_battery_mount"
+            },
+            {
+                "x": 1,
+                "y": 0,
+                "parts": [
+                    "storage_battery_mount",
+                    "large_storage_battery_removable"
+                ]
+            },
+            {
+                "x": 1,
+                "y": 2,
+                "part": "large_storage_battery_removable"
+            },
+            {
+                "x": -1,
+                "y": 3,
+                "part": "hdhalfboard_vertical"
+            },
+            {
+                "x": -1,
+                "y": -1,
+                "part": "hdhalfboard_vertical"
+            },
+            {
+                "x": -1,
+                "y": 0,
+                "part": "reinforced_solar_panel_v2"
+            },
+            {
+                "x": -2,
+                "y": 3,
+                "part": "hdboard_vertical"
+            },
+            {
+                "x": -3,
+                "y": 3,
+                "part": "hdboard_vertical"
+            },
+            {
+                "x": -3,
+                "y": -1,
+                "part": "hdboard_vertical"
+            },
+            {
+                "x": -2,
+                "y": -1,
+                "part": "hdboard_vertical"
+            },
+            {
+                "x": -4,
+                "y": -1,
+                "part": "hdboard_vertical"
+            },
+            {
+                "x": -4,
+                "y": 3,
+                "part": "hdboard_vertical"
+            },
+            {
+                "x": -5,
+                "y": 3,
+                "part": "hdboard_vertical"
+            },
+            {
+                "x": -5,
+                "y": -1,
+                "part": "hdboard_vertical"
+            },
+            {
+                "x": -5,
+                "y": 0,
+                "part": "afs_hauling_space"
+            },
+            {
+                "x": -5,
+                "y": 1,
+                "part": "afs_hauling_space"
+            },
+            {
+                "x": -5,
+                "y": 2,
+                "part": "afs_hauling_space"
+            },
+            {
+                "x": -6,
+                "y": -1,
+                "part": "hdframe_sw"
+            },
+            {
+                "x": -6,
+                "y": 3,
+                "part": "hdframe_se"
+            },
+            {
+                "x": -6,
+                "y": 2,
+                "part": "hdframe_horizontal"
+            },
+            {
+                "x": -6,
+                "y": 1,
+                "part": "hdframe_horizontal"
+            },
+            {
+                "x": -6,
+                "y": 0,
+                "part": "hdframe_horizontal"
+            },
+            {
+                "x": -6,
+                "y": 1,
+                "part": "hddoor_opaque"
+            },
+            {
+                "x": -6,
+                "y": 0,
+                "part": "hdboard_horizontal"
+            },
+            {
+                "x": -6,
+                "y": 2,
+                "part": "hdboard_horizontal"
+            },
+            {
+                "x": -6,
+                "y": 3,
+                "part": "hdboard_se"
+            },
+            {
+                "x": -6,
+                "y": -1,
+                "part": "hdboard_sw"
+            },
+            {
+                "x": -1,
+                "y": 1,
+                "part": "reinforced_solar_panel_v2"
+            },
+            {
+                "x": -1,
+                "y": 2,
+                "part": "reinforced_solar_panel_v2"
+            },
+            {
+                "x": 1,
+                "y": -1,
+                "part": "hdboard_vertical"
+            },
+            {
+                "x": 1,
+                "y": 3,
+                "part": "hdboard_vertical"
+            },
+            {
+                "x": 1,
+                "y": 0,
+                "part": "reinforced_windshield"
+            },
+            {
+                "x": 1,
+                "y": 1,
+                "part": "reinforced_windshield"
+            },
+            {
+                "x": 1,
+                "y": 2,
+                "part": "reinforced_windshield"
+            },
+            {
+                "x": -1,
+                "y": 2,
+                "part": "welding_rig"
+            },
+            {
+                "x": -1,
+                "y": 0,
+                "part": "craft_rig"
+            },
+            {
+                "x": -2,
+                "y": 0,
+                "part": "hdroof"
+            },
+            {
+                "x": -2,
+                "y": 1,
+                "part": "hdroof"
+            },
+            {
+                "x": -2,
+                "y": 2,
+                "part": "hdroof"
+            },
+            {
+                "x": -3,
+                "y": 2,
+                "part": "hdroof"
+            },
+            {
+                "x": -3,
+                "y": 1,
+                "part": "hdroof"
+            },
+            {
+                "x": -3,
+                "y": 0,
+                "part": "hdroof"
+            },
+            {
+                "x": -4,
+                "y": 0,
+                "part": "hdroof"
+            },
+            {
+                "x": -4,
+                "y": 1,
+                "part": "hdroof"
+            },
+            {
+                "x": -4,
+                "y": 2,
+                "part": "hdroof"
+            },
+            {
+                "x": -5,
+                "y": 2,
+                "part": "hdroof"
+            },
+            {
+                "x": -5,
+                "y": 1,
+                "part": "hdroof"
+            },
+            {
+                "x": -5,
+                "y": 0,
+                "part": "hdroof"
+            },
+            {
+                "x": -4,
+                "y": 1,
+                "part": "aisle_lights"
+            },
+            {
+                "x": -2,
+                "y": 1,
+                "part": "aisle_lights"
+            },
+            {
+                "x": 0,
+                "y": 1,
+                "part": "aisle_lights"
+            },
+            {
+                "x": 1,
+                "y": 0,
+                "part": "v_shutter"
+            },
+            {
+                "x": 1,
+                "y": 1,
+                "part": "v_shutter"
+            },
+            {
+                "x": 1,
+                "y": 2,
+                "part": "v_shutter"
+            },
+            {
+                "x": 1,
+                "y": 0,
+                "part": "door_motor"
+            },
+            {
+                "x": 1,
+                "y": 1,
+                "part": "door_motor"
+            },
+            {
+                "x": 1,
+                "y": 2,
+                "part": "door_motor"
+            },
+            {
+                "x": -6,
+                "y": -1,
+                "part": "bike_rack"
+            },
+            {
+                "x": -6,
+                "y": 0,
+                "part": "bike_rack"
+            },
+            {
+                "x": -6,
+                "y": 1,
+                "part": "bike_rack"
+            },
+            {
+                "x": -6,
+                "y": 2,
+                "part": "bike_rack"
+            },
+            {
+                "x": -6,
+                "y": 3,
+                "part": "bike_rack"
+            },
+            {
+                "x": 0,
+                "y": 1,
+                "part": "trunk_floor"
+            },
+            {
+                "x": -1,
+                "y": 1,
+                "part": "wooden_aisle_vertical"
+            },
+            {
+                "x": -2,
+                "y": 0,
+                "part": "afs_freezer"
+            },
+            {
+                "x": -3,
+                "y": 0,
+                "part": "kitchen_unit"
+            },
+            {
+                "x": 3,
+                "y": 1,
+                "part": "hdframe_horizontal"
+            },
+            {
+                "x": 0,
+                "y": 3,
+                "part": "hdhatch_opaque_right"
+            },
+            {
+                "x": 0,
+                "y": -1,
+                "part": "hdhatch_opaque_left"
+            },
+            {
+                "x": -4,
+                "y": 0,
+                "part": "bed"
+            }
+        ],
+        "items": [
+            {
+                "x": -5,
+                "y": 2,
+                "chance": 100,
+                "items": [
+                    "solder_wire",
+                    "solder_wire",
+                    "cable",
+                    "cable",
+                    "leather_tarp",
+                    "rope_30",
+                    "hand_crank_charger",
+                    "power_supply",
+                    "hose",
+                    "jerrycan_big",
+                    "bottle_folding",
+                    "bottle_folding",
+                    "bottle_folding",
+                    "bottle_folding",
+                    "bottle_folding",
+                    "bottle_folding",
+                    "bottle_folding",
+                    "bottle_folding",
+                    "bottle_folding",
+                    "bottle_folding",
+                    "bottle_folding",
+                    "bottle_folding",
+                    "energy_drink",
+                    "energy_drink",
+                    "elec_chainsaw_off",
+                    "combatsaw_off",
+                    "metal_smoking_rack",
+                    "metal_smoking_rack",
+                    "metal_smoking_rack",
+                    "metal_smoking_rack",
+                    "metal_smoking_rack",
+                    "char_kilm",
+                    "char_kilm",
+                    "char_kilm",
+                    "char_kilm",
+                    "halligan",
+                    "hatchet",
+                    "sleeping_bag_roll",
+                    "rollmat",
+                    "medium_plus_battery_cell",
+                    "medium_plus_battery_cell",
+                    "medium_plus_battery_cell",
+                    "medium_plus_battery_cell",
+                    "light_plus_battery_cell",
+                    "light_plus_battery_cell",
+                    "folding_skateboard"
+                ]
+            }
+        ]
+    }
+]
