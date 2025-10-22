@@ -121,7 +121,7 @@
                     "keffiyeh",
                     "glasses_safety",
                     "socks",
-                    "carbon_boots",
+                    "boots_combat",
                     "gloves_tactical",
                     "ref_lighter",
                     "caffeine",
@@ -131,11 +131,7 @@
                     "diving_watch",
                     "1st_aid",
                     "legpouch_large",
-                    "legpouch_large",
-                    "carbon_armguard",
-                    "carbon_legguard",
-                    "carbon_chestguard",
-                    "carbon_shield"
+                    "legpouch_large"
                 ],
                 "entries": [
                     {
@@ -980,7 +976,13 @@
                     "medium_plus_battery_cell",
                     "light_plus_battery_cell",
                     "light_plus_battery_cell",
-                    "folding_skateboard"
+                    "folding_skateboard",
+                    "jar_yeast",
+                    "carbon_armguard",
+                    "carbon_legguard",
+                    "carbon_chestguard",
+                    "carbon_boots",
+                    "carbon_shield"
                 ]
             }
         ]
