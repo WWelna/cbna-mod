@@ -982,7 +982,9 @@
                     "carbon_legguard",
                     "carbon_chestguard",
                     "carbon_boots",
-                    "carbon_shield"
+                    "carbon_shield",
+                    "control_laptop",
+                    "goggles_nv"
                 ]
             }
         ]
