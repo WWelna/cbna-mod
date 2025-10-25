@@ -88,7 +88,7 @@
                 "name": "cooking"
             },
             {
-                "level": 3,
+                "level": 4,
                 "name": "electronics"
             },
             {
@@ -127,9 +127,7 @@
                     "caffeine",
                     "tool_belt",
                     "backpack_tactical_large",
-                    "e_tool",
                     "diving_watch",
-                    "1st_aid",
                     "legpouch_large",
                     "legpouch_large"
                 ],
@@ -937,7 +935,6 @@
                     "cable",
                     "leather_tarp",
                     "rope_30",
-                    "hand_crank_charger",
                     "power_supply",
                     "hose",
                     "jerrycan_big",
@@ -962,10 +959,10 @@
                     "metal_smoking_rack",
                     "metal_smoking_rack",
                     "metal_smoking_rack",
-                    "char_kilm",
-                    "char_kilm",
-                    "char_kilm",
-                    "char_kilm",
+                    "char_kiln",
+                    "char_kiln",
+                    "char_kiln",
+                    "char_kiln",
                     "halligan",
                     "hatchet",
                     "sleeping_bag_roll",
@@ -978,13 +975,23 @@
                     "light_plus_battery_cell",
                     "folding_skateboard",
                     "jar_yeast",
-                    "carbon_armguard",
-                    "carbon_legguard",
-                    "carbon_chestguard",
-                    "carbon_boots",
+                    "tac_fullhelmet",
                     "carbon_shield",
                     "control_laptop",
-                    "goggles_nv"
+                    "goggles_nv",
+                    "e_tool",
+                    "1st_aid",
+                    "noise_emitter",
+                    "noise_emitter",
+                    "light_battery_cell",
+                    "light_battery_cell",
+                    "huge_atomic_battery_cell",
+                    "mgl",
+                    "suppressor_compact",
+                    "shot_suppressor",
+                    "bot_haulerbot",
+                    "bot_haulerbot",
+                    "adv_UPS_off"
                 ]
             }
         ]
