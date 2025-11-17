@@ -4,18 +4,17 @@
 		"id":"anime_neko_protagonist",
 		"name":"Anime Protagonist",
 		"description":"",
-		"points":0,
+		"points":9001,
 		"CBMs":[
 			"bio_advreactor",
-			"bio_batteries",
-			"bio_radscrubber",
-			"bio_geiger",
 			"bio_tattoo_led",
 			"bio_carbon",
 			"bio_nanobots",
 			"bio_power_storage_mkII",
+			"bio_power_storage_mkII",
 			"bio_power_armor_interface_mkII",
-            "bio_ups"
+            "bio_ups",
+			"bio_sunglasses"
 		],
 		"traits":[
 			"THRESH_NEKO",
@@ -80,6 +79,7 @@
 					"energy_drink",
 					"energy_drink",
 					"plut_cell",
+					"plut_cell",
                     "1st_aid",
                     "caffeine",
 					"suppressor_compact"
@@ -99,10 +99,11 @@
                     { "item":"medium_plus_battery_cell", "ammo-item":"battery", "charges":750, "container-item":"large_repairkit" },
                     { "item":"medium_plus_battery_cell", "ammo-item":"battery", "charges":750, "container-item":"mil_mess_kit" },
                     { "item":"medium_plus_battery_cell", "ammo-item":"battery", "charges":750, "container-item":"welder" },
-                    { "item":"goggles_welding", "custom-flags": [ "no_auto_equip" ] },
                     { "item":"stanag100", "ammo-item":"556", "charges":100 },
 					{ "item":"stanag100", "ammo-item":"556", "charges":100 },
 					{ "item":"stanag100", "ammo-item":"556", "charges":100 },
+					{ "item":"mossberg_590", "ammo-item":"shot_00", "charges":9 },
+					{ "item":"shot_00", "charges":50 },
 					{ "item":"m27iar", "contents-item":[ "suppressor", "shoulder_strap","acog_scope","waterproof_gunmod" ], "custom-flags": [ "auto_wield" ] }
 				]
 			},

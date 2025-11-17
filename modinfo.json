@@ -7,6 +7,6 @@
     "maintainers": [ "WWelna" ],
     "description": "",
     "category": "rebalance",
-    "dependencies": [ "bn" ]
+    "dependencies": [ "bn", "MonsterGirls" ]
   }
 ]
